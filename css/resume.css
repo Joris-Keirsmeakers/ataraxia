@@ -1,0 +1,106 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+ @font-face {
+    font-family: 'inkferno';
+    src: url('../fonts/inkferno-webfont.woff2') format('woff2'),
+          url('../fonts/inkferno-webfont.woff') format('woff');
+    font-family: 'decalotype';
+    src: url('../fonts/decalotype.ttf') format('ttf');
+ }
+
+body {
+  font-family: 'decalotype', serif;
+  padding-top: 54px;
+  color: #343a40;
+  font-size: 15pt;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'inkferno', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #144c9c; }
+
+h1 {
+  font-size: 4rem;
+  line-height: 6rem; }
+
+h2 {
+  font-size: 3.5rem; }
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'decalotype', serif;
+  font-size: 1.35rem;
+  text-align: center;}
+
+.list-social-icons a {
+  color: #495057; }
+  .list-social-icons a:hover {
+    color: #0be562; }
+  .list-social-icons a .fa-lg {
+    font-size: 1.75rem; }
+
+.list-icons {
+  font-size: 3rem; }
+  .list-icons .list-inline-item i:hover {
+    color: #495057; }
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase; }
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem!important; }
+  section.resume-section .resume-item .resume-date {
+    min-width: none; }
+
+section.resume-section:last-of-type{
+      padding-bottom: 0!important; }
+
+.bg-primary {
+  background-color: #0a5f97 !important; }
+
+.text-primary {
+  color: #144c9c !important; }
+
+a {
+  color: #144c9c; }
+  a:hover, a:focus, a:active {
+    color: white; }
+
+.list-social-icons{
+  display: none;
+  justify-content: center;
+}
+
+.list-social-icons-contact{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.list-inline{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+}
+
+.my_face {
+    height: 33vh;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+
+}
